@@ -1,0 +1,193 @@
+.open-sans-normal {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+/* Nav styles */
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 200px;
+}
+.nav-title{
+     font-weight: 800;
+     font-size: 45px;
+     ;
+}
+.text-primay{
+
+    color: #fd6e0a;
+}
+nav ul li{
+  list-style: none;
+  margin-right: 20px;
+}
+nav li a{
+  text-decoration: none;
+  font-size: 20px;
+}
+.dark-2{
+  color: #474742;
+
+}
+nav ul{
+  display:flex;
+  align-items: center;
+  
+}
+.btn{
+  background-color: #fd6e0a;
+  color: white;
+  font-weight: bold;
+  border: none;
+  padding: 18px 35px;
+  border-radius: 5px;
+}
+.banner{
+  display: flex;
+  justify-content: space-between;
+  margin: 0 30px 0 200px;
+}
+img{
+  height: 400px;
+  width: 450px;
+}
+.banner-greeting{
+  font-size: 45px;
+  font-weight: 600;
+}
+.banner-title{
+  font-weight: bold;
+  font-size: 85px;
+
+}
+.header{
+  background-image: url(image.png) , url(header_bg.png);
+  background-repeat: no-repeat;
+  background-position: top left,bottom right;
+}
+.section-title{
+  font-size: 35px;
+  font-weight: bold;
+  color: #181818;
+}
+.section-description{
+  font-size: 18px;
+  color: #757575;
+}
+.about{
+  border-radius: 10px;
+  text-align: center;
+  background-color: #fff8f3;
+  padding: 130px 150px;
+  margin-top: 13px;
+}
+.main{
+  max-width: 1140px;
+  margin: 0 auto;
+}
+.about-items{
+  display: flex;
+  justify-content: space-around;
+}
+.item-title{
+  color: #757575;
+}
+.section-description{
+  color: #757575;
+}
+.item{
+  font-weight: bold;
+}
+.text-center{
+text-align: center;
+}
+.skill-container{
+  display: flex;
+  gap: 24px;
+
+}
+.skill-container img{
+  height: 30px;
+  width: 30px;
+}
+.skill{
+  padding: 30px;
+  box-shadow: 0px 6px 50px 0px black;
+}
+.resume {
+    display: flex;
+    gap: 50px;
+}
+
+.resume-column {
+    width: 50%;
+}
+
+.resume-column-title {
+    font-size: 25px;
+    margin-bottom: 30px;
+}
+
+.experience {
+    padding-bottom: 25px;
+    margin-bottom: 25px;
+  
+    border-bottom: 1px solid #fff8f3; ;
+}
+
+.experience-title {
+    font-size: 20px;
+    margin-bottom: 8px;
+}
+
+.experience-sub-title {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 15px;
+}
+
+.experience-description {
+    font-size: 14px;
+    line-height: 1.6;
+    color: #666;
+}
+.resume{
+    text-align: center;
+    width: 70%;
+    margin: 0 auto;
+}
+.section-title {
+    text-align: center;
+}
+
+.resume {
+    position: relative;
+}
+
+.resume > .text-center {
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 30px;
+}
+.btn-primary {
+    background-color: #fd6e0a;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    font-size: 18px;
+    cursor: pointer;
+}
+.last-page{
+  display: flex;
+  margin: 130px 230px;
+  gap:100px;
+  background-color: #fff8f3; 
+
+}
